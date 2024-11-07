@@ -1,0 +1,100 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    border: solid black;
+    justify-content: center;
+}
+
+
+
+.flexbox-container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 32px;
+}
+
+  
+  
+
+
+.flex1{
+    border-radius: 10px;
+    background: rgb(249, 238, 226);
+    
+    flex:0 1 415px;
+    max-width: 256px;
+}
+.flex2{
+    border-radius: 10px;
+    background: rgb(255, 204, 106);
+    flex:0 1 434px;
+    max-width: 256px;
+}
+
+/* grid */
+
+.gridbox-container{
+    display: grid;
+    grid-template-columns:repeat(3, minmax(100px, 256px)) ;
+    grid-template-rows: minmax(131.7px,324px) minmax(100.4px, 247px) minmax(100px, 246px);
+    padding: 30px; 
+    gap: 32px;
+}
+
+.grid1{
+    border-radius: 10px;
+background: rgb(117, 81, 220);
+grid-column-start: 1;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+
+.grid2{
+    border-radius: 10px;
+    background: rgb(219, 209, 252);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.grid3{
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    border: solid black;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.grid4{
+    border-radius: 10px;
+background: rgb(255, 204, 106);
+grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 2;
+grid-row-end: 3;
+}
+
+.grid5{
+    border-radius: 10px;
+background: rgb(255, 255, 255);
+border: solid black;
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 3;
+grid-row-end: 4;
+}
+
+.grid6{
+    border-radius: 10px;
+background: rgb(117, 81, 220);
+grid-column-start: 2;
+grid-column-end: 4;
+grid-row-start: 3;
+grid-row-end: 4;
+}
